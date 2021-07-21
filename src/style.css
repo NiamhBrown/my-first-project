@@ -87,6 +87,11 @@ ul {
   margin: 0 auto;
 }
 
+.search-button {
+  width: 407px;
+  margin-left: 20px;
+}
+
 #celsius,
 #fahrenheit {
   font-size: 15px;
