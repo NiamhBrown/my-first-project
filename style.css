@@ -1,0 +1,95 @@
+h1 {
+  text-align: center;
+  font-family: monospace;
+  font-size: 40px;
+}
+
+h2 {
+  margin-bottom: 0px;
+  font-weight: bolder;
+}
+
+body {
+  text-align: center;
+  display: block;
+  margin: 25px auto;
+  background: whitesmoke;
+  font-family: "Roboto", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  display: inline-block;
+}
+
+.card-main,
+.card {
+  text-align: center;
+  width: 40rem;
+  margin: 0px;
+  border-color: #c2185b;
+}
+.card-main {
+  background-color: pink;
+  border-radius: 30px;
+  display: block;
+  margin: 35px auto;
+}
+
+.card-small {
+  background-color: #ffe8e8;
+  border-radius: 15px;
+  transition: all 200ms ease-in-out;
+  font-size: 15px;
+}
+
+.card-small:hover {
+  font-size: 18px;
+  box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+}
+.search-button {
+  margin: 0px auto 20px;
+  width: 75%;
+  font-family: monospace;
+  text-align: center;
+}
+
+.main {
+  position: relative;
+  left: 14px;
+}
+.main-icon {
+  text-align: right;
+  padding-left: 34px;
+  font-size: 78px;
+  display: inline;
+}
+
+.main-temp {
+  text-align: left;
+  padding-left: 0px;
+  font-size: 20px;
+}
+
+.main-info {
+  text-align: right;
+  font-size: 20px;
+}
+
+.credit {
+  font-family: monospace;
+  opacity: 0.7;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+#celsius,
+#fahrenheit {
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
